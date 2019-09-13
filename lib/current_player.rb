@@ -12,8 +12,8 @@ end
 
 def current_player(board)
   if turn_count(board)  % 2 != 0
-    token = "X"
-  elsif turn_count(board)  % 2 == 0
     token = "O"
+  elsif turn_count(board)  % 2 == 0
+    token = "X"
   end
 end
